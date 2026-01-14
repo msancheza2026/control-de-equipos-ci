@@ -8,4 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->get('areas', 'AreaController::index');
+$routes->get('areas/new', 'AreaController::new');
+$routes->post('areas', 'AreaController::create');
+
 
