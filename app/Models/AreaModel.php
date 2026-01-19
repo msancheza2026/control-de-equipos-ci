@@ -12,7 +12,7 @@ class AreaModel extends Model
     protected $allowedFields = [
         'nombre',
         'descripcion',
-        'estado'
+        'activo'
     ];
 
     protected $useTimestamps = true;
