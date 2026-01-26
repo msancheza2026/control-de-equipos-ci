@@ -1,3 +1,5 @@
+<?= view('layout/header') ?>
+
 <h1>Áreas</h1>
 
 <table border="1" cellpadding="5">

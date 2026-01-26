@@ -1,3 +1,5 @@
+<?= view('layout/header') ?>
+
 
 <h1>Nueva Área</h1>
 
